@@ -8,7 +8,7 @@ namespace SOLID_PRINCIPLES.DIP
 {
     public class EmployeeBusinessLogic
     {
-        EmployeeDataAccess _EmployeeDataAccess;
+        IEmployeeDataAccess _EmployeeDataAccess;
         public EmployeeBusinessLogic()
         {
             _EmployeeDataAccess = DataAccessFactory.GetEmployeeDataAccessObj();

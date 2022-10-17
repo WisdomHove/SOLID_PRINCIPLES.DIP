@@ -8,7 +8,7 @@ namespace SOLID_PRINCIPLES.DIP
 {
     public class DataAccessFactory
     {
-        public static EmployeeDataAccess GetEmployeeDataAccessObj()
+        public static IEmployeeDataAccess GetEmployeeDataAccessObj()
         {
             return new EmployeeDataAccess();
         }
